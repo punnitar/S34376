@@ -139,8 +139,13 @@ p {
 
 .activity-card img {
     width: 100%;
-    height: 220px;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
+    .photo-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
     border-radius: 18px;
     border: 2px solid black;
     margin-bottom: 15px;
